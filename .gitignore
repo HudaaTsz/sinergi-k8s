@@ -1,0 +1,39 @@
+# ==========================================
+# 1. LARAVEL BACKEND (backend/)
+# ==========================================
+backend/vendor/
+backend/node_modules/
+backend/public/build/
+backend/public/hot/
+backend/public/storage/
+backend/storage/*.key
+backend/.phpunit.cache
+backend/.phpunit.result.cache
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/Homestead.json
+backend/Homestead.yaml
+backend/auth.json
+backend/npm-debug.log
+backend/yarn-error.log
+
+# ==========================================
+# 2. VUE FRONTEND (frontend/)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/target/
+frontend/.env
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# ==========================================
+# 3. EDITOR & SYSTEM (GLOBAL)
+# ==========================================
+.vscode/
+.idea/
+.fleet/
+.DS_Store
+Thumbs.db
